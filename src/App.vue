@@ -99,7 +99,8 @@ export default {
     },
 
     endGame() {
-      this.messageToPlayer = "Поражение"
+      this.messageToPlayer = "Конец игры"
+      this.actionNow = '',
       this.gameStarted = false;
       this.currentStep = 0;
       this.sequences.game = [];
